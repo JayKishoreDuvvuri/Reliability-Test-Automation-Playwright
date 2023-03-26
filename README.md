@@ -1,4 +1,4 @@
-### Playwright Test Runner With JavaScript
+### Reliability Automation Testing with Playwright
 
 An example project demonstrating Reliability test automation of playwright tests using page object design pattern 
 framework (UI) and Intercept/Mock
