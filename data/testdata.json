@@ -1,0 +1,17 @@
+{
+	"username": "JayKishore",
+	"password": "Test@123",
+	"errorTitleText": "Error!",
+	"errorMessageText": "An internal error has occurred and has been logged.",
+	"contactName": "Dwayne Johnson",
+	"contactEmail": "DJ@testmail.com",
+	"contactPhone": "98567 65734",
+	"contactSubject": "Executive Suite Room",
+    "contactDescription": "This is a Business visit to the coutry for 3 days conference with all the Team members",
+	"errorMessageForMessageBoxOne": "Message must be between 20 and 2000 characters.",
+	"errorMessageForMessageBoxTwo": "Message may not be blank.",
+	"notEnabledText": "Element Not Enabled. Check Failed!",
+	"notVisibleText": "Element Not Visible. Check Failed!",
+	"notAvailabletext": "Element is visible and available in DOM. Check Failed!"
+
+}

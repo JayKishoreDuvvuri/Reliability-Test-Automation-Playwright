@@ -1,0 +1,33 @@
+{
+  "name": "playwright-test-reliability",
+  "version": "1.0.0",
+  "description": "Playwright with JavaScript for Reliability Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:reliability": "npx playwright test --grep @Reliability --project=Chrome",
+    "test:playwright-report": "npx playwright test --project=Chrome --reporter=html && npx playwright show-report",
+    "test:allure-report": "npx playwright test --project=Chrome --reporter=line,allure-playwright",
+    "test:one": "npx playwright test TC_01_reliability_mock.test.js --project=Chrome",
+    "test:two": "npx playwright test TC_02_reliability_mock.test.js --project=Chrome",
+    "test:three": "npx playwright test TC_03_reliability_ui.test.js --project=Chrome",
+    "test:four": "npx playwright test TC_04_reliability_ui.test.js --project=Chrome",
+    "allure:clean": "rm -rf allure-results",
+    "allure-generate": "allure generate ./allure-results --clean",
+    "allure:report": "npm run allure-generate && allure serve"
+  },
+  "keywords": [
+    "Plawright",
+    "Test Automation",
+    "JavaScript",
+    "Reliability Testing"
+  ],
+  "author": "Jay Kishore Duvvuri",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.32.1",
+    "allure-playwright": "^2.1.0",
+    "fs": "^0.0.1-security",
+    "prettier": "^2.6.2"
+  }
+}
