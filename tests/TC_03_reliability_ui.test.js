@@ -2,14 +2,14 @@
 Login to the app and capture the error message for the Reliability test
 
 Scenario Description: 
-Capture Error message for Reliability Test
+Capture Error message for Reliability Test on the UI
 
 Test Steps:
 1.User navigates to Home Page
 2.User verifies the title and url
 3.User clicks on the Let Me Hack Button
-4.User fills the form and leaves the Message descrption bo empty and clicks on Submit Button
-5.User Validates the Error message as a part of the Reliability test.
+4.User fills the form and leaves the Message description bo empty and clicks on Submit Button
+5.User Validates the Error message as a part of the Reliability test. 
 */
 
 import test from '../testFixtures/fixture'

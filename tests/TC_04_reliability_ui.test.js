@@ -2,7 +2,7 @@
 Login to the app and capture the error message for the Reliability test
 
 Scenario Description: 
-Capture Error message for Reliability Test
+Capture Error message for Reliability Test on the UI
 
 Test Steps:
 1.User is on the Login Page
